@@ -65,6 +65,8 @@ const PanelFooter: React.FC<Props> = ({
   setLang,
   priceLink,
 }) => {
+  return <div></div>;
+  
   if (!isPushed) {
     return (
       <Container>
